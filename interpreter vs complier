@@ -1,0 +1,9 @@
+ Interpreter vs Compiler in Python
+Feature	                  Interpreter	                                               Compiler
+Definition	        Translates and executes code line by line	                  Translates the entire code into machine code at once
+Usage in Python	    Python uses an interpreter by default	                      Python code is also compiled to bytecode, but not to native machine code
+Speed	              Slower (executes one line at a time)	                      Faster (executes precompiled bytecode)
+Error Handling	    Stops at the first error	                                  Detects all errors in the whole program before running
+Output	            No permanent file created (unless explicitly compiled)	    Creates a .pyc (bytecode) file
+Execution	          Directly executes .py files	                                Compiles to .pyc files that are then interpreted by the Python Virtual Machine (PVM)
+Examples	          Python (CPython, PyPy), JavaScript	                        C, C++, Java (compiles to bytecode, like Python)
