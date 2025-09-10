@@ -1,0 +1,1 @@
+print ("find prime number")
